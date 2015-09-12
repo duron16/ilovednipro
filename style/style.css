@@ -240,7 +240,7 @@ h2.main-h2 {
     min-width: 960px;
     position: relative;
     width: 100%;
-    height: 70vh;
+    height: 60vh;
     min-height: 400px;
     overflow: hidden;
 }
@@ -267,6 +267,9 @@ h2.main-h2 {
     box-sizing: border-box;
     margin-bottom: 2px;
 }
+.about-dnipro-item p {
+    padding-left: 220px;
+}
 .about-dnipro-item h4 {
     height: 45px;
     color: #231f20;
@@ -279,7 +282,6 @@ h2.main-h2 {
 .dnipro-news-item {
     border: 1px solid #DAD7D7;
     padding: 20px 25px 30px;
-    height: 146px;
     margin-bottom: 24px;
     box-sizing: border-box;
     cursor: pointer;
@@ -298,13 +300,20 @@ h2.main-h2 {
     text-align: left;
     margin-top: 0;
 }
-.dnipro-news p {
-    text-indent: 10px;
-    height: 32px;
+.about-dnipro-item .img-wrap,
+.dnipro-news-item .img-wrap {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+    height: 150px;
     overflow: hidden;
 }
+.dnipro-news p {
+    text-indent: 10px;
+}
 .news-item-bottom {
-    margin-top: 15px;
+    clear: both;
+    padding-top: 15px;
     color: #231f20;
     font-weight: bold;
 }
@@ -659,3 +668,57 @@ h2.main-h2 {
     z-index: 999;
     overflow-y: auto;
 }
+/*--requisites--*/
+.requisites {
+    padding: 15px 15px 0;
+    margin: 10px 100px 30px;
+    border-top: 1px solid #DAD7D7;
+    border-bottom: 1px solid #DAD7D7;
+    text-align: center;
+}
+.requisites h5 {
+    color: #231f20;
+    font-size: 22px;
+}
+.requisites table {
+    width: 90%;
+    margin: auto;
+    color: #231f20;
+    text-align: left;
+}
+.requisites tr {
+}
+.requisites td {
+    padding: 7px 20px 7px 32px;
+    width: 35%;
+}
+.requisites td + td {
+    width: 65%;
+}
+.requisites tr:nth-child(1n) {
+    background: #ccc;
+}
+.requisites tr:nth-child(2n) {
+    background: #eee;
+}
+.privat-card {
+    padding: 23px 20px 20px 70px;
+    background: url(../img/Privatbank.jpg) left center no-repeat;
+    min-height: 50px;
+    display: inline-block;
+    text-align: left;
+
+}
+.privat-card-caption {
+    font-size: 22px;
+    color: #231f20;
+}
+.privat-card p {
+    margin: 5px 0;
+}
+.requisites-company {background: url(../img/company.png) 3px center no-repeat;}
+.requisites-okpo {background: url(../img/okpo.png) 3px center no-repeat;}
+.requisites-uah {background: url(../img/uah.png) 3px center no-repeat;}
+.requisites-usd {background: url(../img/usd.png) 3px center no-repeat;}
+.requisites-eur {background: url(../img/eur.png) 3px center no-repeat;}
+.requisites-note {background: url(../img/notes.png) 3px center no-repeat;}
