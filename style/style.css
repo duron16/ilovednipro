@@ -701,19 +701,28 @@ h2.main-h2 {
 .requisites tr:nth-child(2n) {
     background: #eee;
 }
-.privat-card {
-    padding: 23px 20px 20px 70px;
-    background: url(../img/Privatbank.jpg) left center no-repeat;
+.other-pay > div {
+    padding: 15px 20px 5px 70px;
     min-height: 50px;
-    display: inline-block;
     text-align: left;
-
 }
-.privat-card-caption {
+.privat-card {
+    background: url(../img/Privatbank.jpg) left center no-repeat;
+    margin-left: 30px;
+}
+.yandex-money {
+    background: url(../img/yandex.png) left center no-repeat;
+    margin-left: 250px;
+}
+.webmoney-pay {
+    background: url(../img/wm.png) left center no-repeat;
+    margin-left: 400px;
+}
+.other-pay .caption {
     font-size: 22px;
     color: #231f20;
 }
-.privat-card p {
+.other-pay p {
     margin: 5px 0;
 }
 .requisites-company {background: url(../img/company.png) 3px center no-repeat;}
